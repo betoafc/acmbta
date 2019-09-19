@@ -1,0 +1,176 @@
+
+.indexTitle{
+    font-family:Alisandra_Demo import;
+    font-style:italic;
+    font-size:50px;
+}
+
+@font-face{
+    font-family:Alisandra_Demo import;
+    src:url("../fonts/Alisandra_Demo.ttf");
+}
+
+.indexSubtitle{
+    font-family:KazmannSans import;
+    font-size:55px;
+    margin-top: -25px;
+    color:#48170c;
+}
+
+@font-face{
+    font-family:KazmannSans import;
+    src:url("../fonts/KazmannSans.ttf");
+}
+
+
+.intro-block{
+    background: url(../img/verde.png) repeat;
+    padding:100px 15px 60px;
+    color: #fff;
+}
+
+.text-muted{
+    color: #e9e6df;
+    font-weight:100;
+}
+
+.iglesia{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h3{
+   font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+}
+
+.info a{
+    color: #fff;
+}
+
+.info a:hover{
+    color: #333
+}
+
+.tab-pane{
+    padding:30px 10px 0 10px;
+    margin: 10px;
+}
+
+.info p{
+    color: #fff;
+}
+
+.navbar-inverse {
+    background-color: #FFFCD9;
+    border-color:#FFFCD9;
+}
+
+.map{
+
+    height:350px;
+    width:100%;
+}
+
+/*Work with PDF Files*/
+    .iframe-container {    
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+/* Flexible iFrame for google map */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn-primary {
+    background-color:#324444;
+    border-color:#324444;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active.open .dropdown-toogle.btn-primary {
+    color: #FFFFFF;
+    background-color: #A8A8A8;
+    border-color: #A8A8A8;
+}
+
+.modal-content {
+  background-color: #000;
+}
+
+footer{
+    background: #fff;
+    height:90px;
+    color:#777777;
+    font-weight: bold;
+    text-align:center;
+    padding-top:40px;
+    margin-top:30px;
+    border-top:6px solid #9bbcbc;
+}
+
+
+/*for image gallery*/
+ul {padding:0 0 0 0; margin:0 0 0 0;}
+ul li {list-style:none; margin-bottom:25px;}
+ul li img {cursor: pointer;}
+.modal-body {padding:5px !important;}
+.modal-content {border-radius:0;}
+.modal-dialog img {text-align:center; margin:0 auto;}
+.controls{width:50px; display:block; font-size:11px; padding-top:8px; font-weight:bold;}
+.next {float:right; text-align:right;}
+
+/*override modal for demo only*/
+.modal-dialog {max-width:500px; padding-top: 90px;}
+@media screen and (min-width: 768px){
+    .modal-dialog {width:500px;padding-top: 90px;}}
+@media screen and (max-width:1500px){#ads {display:none;}}
+
+@import url(href='http://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+/*video class*/
+.flex-video {
+position: relative;
+padding-top: 25px;
+padding-bottom: 67.5%;
+height: 0;
+margin-bottom: 16px;
+overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+.flex-video { padding-top: 0; }
+}
+/*end video class*/
